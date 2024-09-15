@@ -1,0 +1,55 @@
+- **Tech Stack:**
+  - Next.js
+  - TypeScript
+  - Convex
+  - OpenAI
+  - Clerk
+  - Tailwind CSS
+
+- **Features:**
+  - Robust Authentication for secure user login and registration.
+  - Modern Home Page showcasing trending podcasts with a sticky podcast player.
+  - Discover Podcasts Page enabling exploration of new and popular podcasts.
+  - Fully Functional Search for easy podcast discovery.
+  - Create Podcast Page for text-to-audio conversion, AI image generation, and previews.
+  - Multi Voice AI Functionality supporting dynamic podcast creation.
+  - Profile Page allowing users to view and delete their created podcasts.
+  - Podcast Details Page displaying detailed information, including transcript and number of listeners.
+  - Podcast Player with backward/forward controls and mute/unmute functionality for seamless listening experience.
+  - Responsive Design ensuring functionality and aesthetics across devices and screen sizes.
+
+- **Project Setup:**
+  - Clone the repository using Git.
+  - Install project dependencies using npm.
+  - Set up environment variables with Convex & Clerk credentials.
+  - Run the project locally using npm run dev.
+
+- **Snippets:**
+  - Contains CSS snippets for various styling elements and custom classes for text sizes, grid layouts, and more.
+
+- **Global CSS Styles:**
+  - Defines styling rules for elements such as inputs, grids, sidebars, buttons, etc.
+  - Includes custom classes for text sizes and scrollbar designs.
+
+- **Tailwind CSS Configuration:**
+  - Import Tailwind config to extend existing styles.
+  - Enables customization and theming for Tailwind utility classes.
+
+- **Sidebar Links:**
+  - Includes links to Home, Discover, and Create Podcast pages.
+  - Each link has an image URL, route, and label.
+
+- **Voice Details:**
+  - Contains details of various voices, identified by id and name such as alloy, echo, fable, onyx, nova, and shimmer.
+
+- **Podcast Data:**
+  - Provides information on different podcasts, including title, description, and image URL.
+
+- **HTTP Configuration:**
+  - Configures HTTP routes for handling Clerk webhooks, verifying request payloads, and handling user events.
+
+- **User Queries:**
+  - Includes functions to retrieve user data and get the top user by podcast count.
+
+- **Podcast Handling:**
+  - Functions for creating, updating, and deleting podcasts, updating views, and retrieving podcasts based on different criteria.
